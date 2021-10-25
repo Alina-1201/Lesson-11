@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.conteiner{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flag{
+    width: 500px;
+    height: 350px;
+    border: 2px solid lightgray;
+    background: #fff;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.circle{
+    background: rgb(146, 21, 21);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.logo{
+    height: 500px;
+    width: 500px; 
+    background: rgb(222,233,33);
+    background: linear-gradient(356deg, rgba(222,233,33,1) 0%, rgba(156,63,10,1) 29%, rgba(135,8,49,1) 46%, rgba(73,0,66,1) 62%, rgba(50,3,84,1) 70%, rgba(6,8,116,1) 82%, rgba(0,212,255,1) 100%);;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
+.line{
+    border: 30px solid white;
+    height: 380px;
+    width: 380px;
+    border-radius: 80px;
+    position: relative;
+    right: 60px;
+    left: 60px;
+    top: 60px;
+}
+
+.instagram-circle{
+    border: 30px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    right: -176px;
+    top: -200px;
+}
+
+.instagram-circle::after{
+    content: '';
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom:  0;
+    margin:  auto;
+    left: 115px;
+    top: -200px;
+}
